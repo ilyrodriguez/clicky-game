@@ -1,0 +1,34 @@
+.navbar li {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .itemCenter {
+      width: 70%;
+      font-family: 'Rhodium Libre', serif;
+  }
+  
+  .itemRight {
+    width: 15%;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .navbar {
+    /* background-image: url(/images/nav.png); */
+    background-repeat: no-repeat;
+    height: 225px;
+    background-color: transparent; 
+    border: none;
+    /* width: 150%; */
+  }
+  
+  li {
+    color: black;
+    padding: 15px 0;
+  }
+  #nav{
+    size: 80%;
+  }
+  body {
+    font-size: 24px;
+  }

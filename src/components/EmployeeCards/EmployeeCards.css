@@ -1,0 +1,20 @@
+.card {
+  background: none;
+  border-radius: none;
+  height: 192px;
+  margin: auto 25px 30px 25px;
+  position: relative;
+  width: 170px;
+  box-shadow: 0 3px 6px rgba(53, 53, 53, 0.404), 0 3px 6px rgba(153, 153, 153, 0.158);
+}
+
+.card > .img-container > img {
+  width: 180px;
+  height: auto;
+  margin-top: -15px;
+  margin-left: -5px;
+}
+
+.img-container:hover{
+  transform: scale(1.1);
+}

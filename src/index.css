@@ -1,0 +1,16 @@
+    
+body {
+    background-image: url(/images/cork-board.jpg);
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  html, body, #root {
+    padding: 0px;
+    margin: 0;
+    height: 100%;
+  }
+  
