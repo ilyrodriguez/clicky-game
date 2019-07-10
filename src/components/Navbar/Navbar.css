@@ -2,33 +2,38 @@
     display: inline-block;
     text-align: center;
   }
-  
+  #instructions{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    padding-left: 8%;
+
+  }
   .itemCenter {
-      width: 70%;
       font-family: 'Rhodium Libre', serif;
+      margin-left: 42%;
+      font-size: 35px;
   }
   
   .itemRight {
-    width: 15%;
     font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    float: right;
+    padding-right: 10%;
   }
-  
+
   .navbar {
-    /* background-image: url(/images/nav.png); */
     background-repeat: no-repeat;
-    height: 225px;
+    height: 200px;
     background-color: transparent; 
     border: none;
-    /* width: 150%; */
+    width: 100%;
   }
   
   li {
     color: black;
     padding: 15px 0;
   }
-  #nav{
-    size: 80%;
-  }
+
   body {
     font-size: 24px;
   }

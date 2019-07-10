@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import EmployeeCards from "./components/EmployeeCards";
-import Title from "./components/Title";
+import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import employee from "./employee.json";
-// import Navbar from "./components/Navbar/Navbar"
+import Navbar from "./components/Navbar/Navbar";
 
 class App extends Component {
     state = {
@@ -11,6 +11,7 @@ class App extends Component {
       clickedemployee: [],
       score: 0,
       highscore: 0,
+      Footer
     };
 
     imageClick = event => {
@@ -57,21 +58,26 @@ class App extends Component {
     };
     render() {
       return (
-        // <nav></nav>
         <Wrapper>
-          <Title>
+          <Navbar>score= {this.state.score}  | 
+            highscore= {this.state.highscore}</Navbar>
+
+          {/* <Title>
             score={this.state.score}
             highscore={this.state.highscore}
-          </Title>
+          </Title> */}
           {this.state.employee.map(employee => (
             <EmployeeCards
               imageClick={this.imageClick}  
               id={employee.id}
               key={employee.id}
-              image={employee.image}
-            />
+              image={employee.image}/>
           ))}
+
+        <footer>{this.state.Footer}</footer>
+
         </Wrapper>
+
       );
     }
   }
